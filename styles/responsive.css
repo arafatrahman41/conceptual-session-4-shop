@@ -1,0 +1,24 @@
+
+@media screen and (min-width: 50px) {
+    .nav-container,.web-menu{
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .web-title{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .web-menu{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 900px) {
+    .nav-container, .web-menu{
+      flex-direction: row;  
+    }
+    .web-title{
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+}

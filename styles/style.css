@@ -10,7 +10,7 @@ body{
 .container{
     border: 2px solid red;
     max-width: 1440px;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 /* nav section style start */
@@ -37,19 +37,20 @@ header{
 .web-title .important{
     color: #e893cf;
 }
-.web-manu{
+.web-menu{
     width: 48%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.web-manu a{
+.web-menu a{
     text-decoration: none;
     color: whitesmoke;
 }
-.web-manu a:last-child{
+.web-menu a:last-child{
     background-color: #e893cf;
     padding: .5rem;
     border-radius: .2rem; 
+    color: black;
 }
 
